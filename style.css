@@ -1,0 +1,116 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap');
+
+/* css reset */
+* {
+                margin: 0;
+                padding: 0;
+                outline: 0;
+                box-sizing: border-box;    
+}
+
+body {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100vh;
+                    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color: rgb(199,199,199);
+color: gray;
+}
+.card{
+                    
+                    width: 350px;
+                    height: 450px;
+                    padding: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    /* justify-content: center; */
+                    align-items: center;
+                    gap: 10px;
+                    background-color:rgb(235,235,235) ;
+                    border-radius: 10px;
+                    box-shadow: 5px 5px 5px grey, -5px -5px 5px  white;
+                    
+}
+.profileImage{
+                    width: 150px;
+                    height: 170px;
+                    border-radius: 80%;
+                    border: 5px solid rgb(191,191,191);
+                    box-shadow: 2px 2px 2px grey, -2px -2px 2px  white;
+
+                    
+                    
+}
+.profilename{
+                   font-weight: 600; 
+                   
+}
+.profiledetail{
+                    font-weight: 500;
+
+}
+.topsection{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+}
+.socialmedia{
+                    display: flex;
+                    width: 50%;
+                    align-items: center;
+                    justify-content: space-around;
+
+
+
+}
+
+
+
+
+.socialmedia div i  {
+                    font-size: 15px;
+                    box-shadow: 3px 3px 3px gray, -3px -3px 3px  white;
+                    border-radius: 50px;
+                    border: 8px solid white;
+
+}
+.myBtn {
+                    width: 60%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+}
+.myBtn button {
+                    padding: 5px  15px;
+                    box-shadow: 2px 2px 2px grey, -2px -2px 2px  white;
+                    color: gray;
+                    border: 50px;
+                    border-radius: 8px;
+                    margin-top: 10px;
+
+}
+
+.likeandcomment{
+                    display: flex;
+
+}
+.likeandcomment .data {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 25px;
+                    color: gray;
+                    padding: 0 20px;
+                    border-right: 2px solid gray;
+                    
+}
+.data i {
+                    font-size: 20px;
+                    margin-right: 6px;
+}
+.data:last-child {
+                    border-right: none;
+}
